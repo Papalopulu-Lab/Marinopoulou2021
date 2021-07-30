@@ -1,7 +1,7 @@
 The LumiFOD folder contains routines developed by Nick Phillips which use a periodic and aperiodic Gaussian process covariance model to infer parameters by
 maximizing likelihood and select statistically signficant periodic timeseries based on the log likelihood ratio (LLR) statistic. This version contains minor 
 customisations including: optimisation of covariance models separately before computing LLR, routines to combine and export single cell statistics and detrended data.
-In addition, the Hilbert transform was used to measure the peak to through fold change in amplitude. 
+In addition, the Hilbert transform was used to identify peaks, measure peak to peak interval variance and peak to through fold change in amplitude. 
 
 To use this please cite the following publications:
 
