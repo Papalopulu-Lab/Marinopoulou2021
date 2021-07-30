@@ -11,7 +11,7 @@ C Rasmussen and N Hannes (2010) "Gaussian processes for machine learning (GPML) 
 
 To run the code please follow these steps:
 
--download the GMPL. zip provided in the same repository and unarchive this
--download a copy of the LumiFOD folder in the same location as the above
--run FODmain_exportHilbert.m
--results will be stored in a simulation folder as figures, .mat and .xls files
+(1)download the GMPL. zip provided in the same repository and unarchive it;
+(2)download a copy of the LumiFOD folder in the same location as GPML;
+(3)run FODmain_exportHilbert.m
+(4)results will be stored in a simulation folder as figures, .mat and .xls files
