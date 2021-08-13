@@ -5,8 +5,8 @@ startup
 Lengthscale =7.5; % roughly 3x period expected (in hours) 
 DetrendParam = log(1./(2*Lengthscale.^2));
 %% experiment file details
-fnames='20200311_L2_Negative_Scarlet.xls';
-exptnames='20200311_L2_Negative_Scarlet'; % can be a different name-used to store the sim files
+fnames='ExampleFluorescentTraces.xls';
+exptnames='ExampleFluorescentTraces'; % can be a different name-used to store the sim files
 coldata=[2:105];
 strow=1;% start row excludes rows with numbers in header
 q = 0.05; % choose initial cutoff level... 1-5% FDR
